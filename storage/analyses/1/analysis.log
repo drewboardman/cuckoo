@@ -1,0 +1,47 @@
+2018-02-06 16:40:24,009 [root] DEBUG: Starting analyzer from: C:\jwedw
+2018-02-06 16:40:24,009 [root] DEBUG: Storing results at: C:\klQixfLvw
+2018-02-06 16:40:24,009 [root] DEBUG: Pipe server name: \\.\PIPE\FjPySOlgV
+2018-02-06 16:40:24,009 [root] DEBUG: No analysis package specified, trying to detect it automagically.
+2018-02-06 16:40:24,009 [root] INFO: Automatically selected analysis package "exe"
+2018-02-06 16:40:24,200 [root] DEBUG: Started auxiliary module Disguise
+2018-02-06 16:40:24,200 [root] DEBUG: Started auxiliary module Human
+2018-02-06 16:40:24,210 [root] DEBUG: Started auxiliary module Screenshots
+2018-02-06 16:40:24,220 [lib.api.process] INFO: Successfully executed process from path "C:\DOCUME~1\cuckoo\LOCALS~1\Temp\dboardman3_malware1.exe" with arguments "" with pid 252
+2018-02-06 16:40:24,230 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:24,230 [lib.api.process] INFO: Successfully injected process with pid 252.
+2018-02-06 16:40:26,233 [lib.api.process] INFO: Successfully resumed process with pid 252
+2018-02-06 16:40:26,423 [lib.api.process] INFO: Successfully injected process with pid 252
+2018-02-06 16:40:26,423 [root] INFO: Added new process to list with pid: 252
+2018-02-06 16:40:27,494 [modules.auxiliary.human] INFO: Found button "OK", clicking it
+2018-02-06 16:40:28,716 [root] INFO: Added new file to list with path: C:\WINDOWS\WinVBS.vbs
+2018-02-06 16:40:34,805 [root] INFO: Announced process name: wscript.exe pid: 312
+2018-02-06 16:40:34,815 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:34,815 [lib.api.process] INFO: Successfully injected process with pid 312.
+2018-02-06 16:40:34,984 [lib.api.process] INFO: Successfully injected process with pid 312
+2018-02-06 16:40:34,994 [root] INFO: Added new process to list with pid: 312
+2018-02-06 16:40:34,994 [root] INFO: Announced process name: IEXPLORE.EXE pid: 1256
+2018-02-06 16:40:35,005 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:35,005 [lib.api.process] INFO: Successfully injected process with pid 1256.
+2018-02-06 16:40:45,019 [lib.api.process] ERROR: Timeout waiting for cuckoomon to initialize in pid 1256
+2018-02-06 16:40:45,019 [root] INFO: Announced process name: IEXPLORE.EXE pid: 1256
+2018-02-06 16:40:45,029 [lib.api.process] DEBUG: Using CreateRemoteThread injection.
+2018-02-06 16:40:45,029 [lib.api.process] INFO: Successfully injected process with pid 1256.
+2018-02-06 16:40:45,349 [lib.api.process] INFO: Successfully injected process with pid 1256
+2018-02-06 16:40:45,349 [root] INFO: Added new process to list with pid: 1256
+2018-02-06 16:40:45,380 [modules.auxiliary.human] INFO: Found button "OK", clicking it
+2018-02-06 16:40:45,470 [root] INFO: Process with pid 252 has terminated
+2018-02-06 16:40:46,471 [root] INFO: Process with pid 312 has terminated
+2018-02-06 16:40:46,582 [root] INFO: Added new file to list with path: C:\DOCUME~1\cuckoo\LOCALS~1\Temp\2524_appcompat.txt
+2018-02-06 16:40:46,782 [root] INFO: Announced process name: dwwin.exe pid: 364
+2018-02-06 16:40:46,792 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:46,792 [lib.api.process] INFO: Successfully injected process with pid 364.
+2018-02-06 16:40:47,453 [modules.auxiliary.human] INFO: Found button "&Don't Send", clicking it
+2018-02-06 16:40:56,796 [lib.api.process] ERROR: Timeout waiting for cuckoomon to initialize in pid 364
+2018-02-06 16:40:56,796 [root] INFO: Announced process name: drwtsn32.exe pid: 1176
+2018-02-06 16:40:56,796 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:56,796 [lib.api.process] INFO: Successfully injected process with pid 1176.
+2018-02-06 16:41:06,801 [lib.api.process] ERROR: Timeout waiting for cuckoomon to initialize in pid 1176
+2018-02-06 16:41:07,512 [root] INFO: Process with pid 1256 has terminated
+2018-02-06 16:41:07,512 [root] INFO: Process list is empty, terminating analysis.
+2018-02-06 16:41:08,553 [root] WARNING: File at path "C:\DOCUME~1\cuckoo\LOCALS~1\Temp\2524_appcompat.txt" does not exist, skip.
+2018-02-06 16:41:08,553 [root] INFO: Analysis completed.

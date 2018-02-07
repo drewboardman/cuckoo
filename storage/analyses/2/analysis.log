@@ -1,0 +1,27 @@
+2018-02-06 16:40:24,009 [root] DEBUG: Starting analyzer from: C:\gxwmai
+2018-02-06 16:40:24,009 [root] DEBUG: Storing results at: C:\IUSKDx
+2018-02-06 16:40:24,009 [root] DEBUG: Pipe server name: \\.\PIPE\ACmRofMr
+2018-02-06 16:40:24,009 [root] DEBUG: No analysis package specified, trying to detect it automagically.
+2018-02-06 16:40:24,009 [root] INFO: Automatically selected analysis package "vbs"
+2018-02-06 16:40:24,180 [root] DEBUG: Started auxiliary module Disguise
+2018-02-06 16:40:24,180 [root] DEBUG: Started auxiliary module Human
+2018-02-06 16:40:24,180 [root] DEBUG: Started auxiliary module Screenshots
+2018-02-06 16:40:24,190 [lib.api.process] INFO: Successfully executed process from path "C:\WINDOWS\system32\wscript.exe" with arguments ""C:\DOCUME~1\cuckoo\LOCALS~1\Temp\dboardman3_malware2.vbs"" with pid 220
+2018-02-06 16:40:24,190 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:24,190 [lib.api.process] INFO: Successfully injected process with pid 220.
+2018-02-06 16:40:26,193 [lib.api.process] INFO: Successfully resumed process with pid 220
+2018-02-06 16:40:26,243 [lib.api.process] INFO: Successfully injected process with pid 220
+2018-02-06 16:40:26,243 [root] INFO: Added new process to list with pid: 220
+2018-02-06 16:40:26,483 [root] INFO: Added new file to list with path: C:\Documents and Settings\All Users\Desktop\Sex-Vabian.jpg.lnk
+2018-02-06 16:40:26,523 [root] INFO: Added new file to list with path: C:\payload.txt
+2018-02-06 16:40:26,523 [root] INFO: Added new file to list with path: C:\windows\backup_vabian.sys
+2018-02-06 16:40:26,523 [root] INFO: Added new file to list with path: C:\WINDOWS\Vabian.VX
+2018-02-06 16:40:26,523 [root] INFO: Added new file to list with path: C:\Documents and Settings\cuckoo\My Documents\desktop.ini
+2018-02-06 16:40:26,562 [root] INFO: Announced process name: notepad.exe pid: 964
+2018-02-06 16:40:26,572 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:26,572 [lib.api.process] INFO: Successfully injected process with pid 964.
+2018-02-06 16:40:26,642 [lib.api.process] INFO: Successfully injected process with pid 964
+2018-02-06 16:40:26,653 [root] INFO: Added new process to list with pid: 964
+2018-02-06 16:40:27,253 [root] INFO: Process with pid 220 has terminated
+2018-02-06 16:50:26,385 [root] INFO: Analysis timeout hit, terminating analysis.
+2018-02-06 16:50:26,466 [root] INFO: Analysis completed.

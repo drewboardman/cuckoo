@@ -1,0 +1,38 @@
+2018-02-06 16:40:24,009 [root] DEBUG: Starting analyzer from: C:\fljsls
+2018-02-06 16:40:24,009 [root] DEBUG: Storing results at: C:\iqBEIS
+2018-02-06 16:40:24,009 [root] DEBUG: Pipe server name: \\.\PIPE\cDeQpTFYbb
+2018-02-06 16:40:24,009 [root] DEBUG: No analysis package specified, trying to detect it automagically.
+2018-02-06 16:40:24,009 [root] INFO: Automatically selected analysis package "exe"
+2018-02-06 16:40:24,180 [root] DEBUG: Started auxiliary module Disguise
+2018-02-06 16:40:24,180 [root] DEBUG: Started auxiliary module Human
+2018-02-06 16:40:24,190 [root] DEBUG: Started auxiliary module Screenshots
+2018-02-06 16:40:24,200 [lib.api.process] INFO: Successfully executed process from path "C:\DOCUME~1\cuckoo\LOCALS~1\Temp\dboardman3_malware3.exe" with arguments "" with pid 252
+2018-02-06 16:40:24,200 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:24,200 [lib.api.process] INFO: Successfully injected process with pid 252.
+2018-02-06 16:40:26,253 [lib.api.process] INFO: Successfully resumed process with pid 252
+2018-02-06 16:40:29,326 [lib.api.process] INFO: Successfully injected process with pid 252
+2018-02-06 16:40:29,326 [root] INFO: Added new process to list with pid: 252
+2018-02-06 16:40:29,578 [modules.auxiliary.human] INFO: Found button "OK", clicking it
+2018-02-06 16:40:30,980 [root] INFO: Announced process name: IEXPLORE.EXE pid: 720
+2018-02-06 16:40:30,990 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:30,990 [lib.api.process] INFO: Successfully injected process with pid 720.
+2018-02-06 16:40:41,003 [lib.api.process] ERROR: Timeout waiting for cuckoomon to initialize in pid 720
+2018-02-06 16:40:41,003 [root] INFO: Announced process name: IEXPLORE.EXE pid: 720
+2018-02-06 16:40:41,003 [lib.api.process] DEBUG: Using CreateRemoteThread injection.
+2018-02-06 16:40:41,003 [lib.api.process] INFO: Successfully injected process with pid 720.
+2018-02-06 16:40:41,184 [modules.auxiliary.human] INFO: Found button "OK", clicking it
+2018-02-06 16:40:41,243 [lib.api.process] INFO: Successfully injected process with pid 720
+2018-02-06 16:40:41,243 [root] INFO: Added new process to list with pid: 720
+2018-02-06 16:40:41,464 [root] INFO: Process with pid 252 has terminated
+2018-02-06 16:40:42,565 [root] INFO: Announced process name: IEXPLORE.EXE pid: 216
+2018-02-06 16:40:42,565 [lib.api.process] DEBUG: Using QueueUserAPC injection.
+2018-02-06 16:40:42,565 [lib.api.process] INFO: Successfully injected process with pid 216.
+2018-02-06 16:40:52,581 [lib.api.process] ERROR: Timeout waiting for cuckoomon to initialize in pid 216
+2018-02-06 16:40:52,581 [root] INFO: Announced process name: IEXPLORE.EXE pid: 216
+2018-02-06 16:40:52,611 [lib.api.process] DEBUG: Using CreateRemoteThread injection.
+2018-02-06 16:40:52,611 [lib.api.process] INFO: Successfully injected process with pid 216.
+2018-02-06 16:40:52,740 [lib.api.process] INFO: Successfully injected process with pid 216
+2018-02-06 16:40:52,750 [root] INFO: Added new process to list with pid: 216
+2018-02-06 16:40:53,772 [modules.auxiliary.human] INFO: Found button "OK", clicking it
+2018-02-06 16:50:29,760 [root] INFO: Analysis timeout hit, terminating analysis.
+2018-02-06 16:50:29,760 [root] INFO: Analysis completed.

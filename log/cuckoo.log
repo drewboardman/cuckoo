@@ -1,0 +1,31 @@
+2018-02-06 16:39:58,129 [lib.cuckoo.core.scheduler] INFO: Using "virtualbox" machine manager
+2018-02-06 16:39:59,680 [lib.cuckoo.core.scheduler] INFO: Loaded 1 machine/s
+2018-02-06 16:39:59,685 [lib.cuckoo.core.scheduler] INFO: Waiting for analysis tasks.
+2018-02-06 16:40:25,279 [lib.cuckoo.core.scheduler] INFO: Starting analysis of FILE "/home/ubuntu/Desktop/malware/Phase1/dboardman3_malware1.exe" (task=1)
+2018-02-06 16:40:25,313 [lib.cuckoo.core.scheduler] INFO: Task #1: acquired machine WindowsXPSP3 (label=WindowsXPSP3)
+2018-02-06 16:40:25,398 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6420 (interface=vboxnet0, host=192.168.56.101, dump path=/home/ubuntu/Desktop/cuckoo/storage/analyses/1/dump.pcap)
+2018-02-06 16:40:27,026 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=WindowsXPSP3, ip=192.168.56.101)
+2018-02-06 16:41:20,372 [lib.cuckoo.core.guest] INFO: WindowsXPSP3: analysis completed successfully
+2018-02-06 16:41:21,985 [lib.cuckoo.core.scheduler] INFO: Starting analysis of FILE "/home/ubuntu/Desktop/malware/Phase1/dboardman3_malware2.vbs" (task=2)
+2018-02-06 16:41:22,078 [lib.cuckoo.core.scheduler] INFO: Task #2: acquired machine WindowsXPSP3 (label=WindowsXPSP3)
+2018-02-06 16:41:22,115 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6620 (interface=vboxnet0, host=192.168.56.101, dump path=/home/ubuntu/Desktop/cuckoo/storage/analyses/2/dump.pcap)
+2018-02-06 16:41:23,311 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=WindowsXPSP3, ip=192.168.56.101)
+2018-02-06 16:41:23,860 [lib.cuckoo.core.scheduler] INFO: Task #1: reports generation completed (path=/home/ubuntu/Desktop/cuckoo/storage/analyses/1)
+2018-02-06 16:41:23,871 [lib.cuckoo.core.scheduler] INFO: Task #1: analysis procedure completed
+2018-02-06 16:51:34,296 [lib.cuckoo.core.guest] INFO: WindowsXPSP3: analysis completed successfully
+2018-02-06 16:51:36,806 [lib.cuckoo.core.scheduler] INFO: Starting analysis of FILE "/home/ubuntu/Desktop/malware/Phase1/dboardman3_malware3.exe" (task=3)
+2018-02-06 16:51:36,825 [lib.cuckoo.core.scheduler] INFO: Task #3: acquired machine WindowsXPSP3 (label=WindowsXPSP3)
+2018-02-06 16:51:36,839 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6811 (interface=vboxnet0, host=192.168.56.101, dump path=/home/ubuntu/Desktop/cuckoo/storage/analyses/3/dump.pcap)
+2018-02-06 16:51:38,041 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=WindowsXPSP3, ip=192.168.56.101)
+2018-02-06 16:51:38,168 [lib.cuckoo.core.scheduler] INFO: Task #2: reports generation completed (path=/home/ubuntu/Desktop/cuckoo/storage/analyses/2)
+2018-02-06 16:51:38,177 [lib.cuckoo.core.scheduler] INFO: Task #2: analysis procedure completed
+2018-02-06 17:01:52,426 [lib.cuckoo.core.guest] INFO: WindowsXPSP3: analysis completed successfully
+2018-02-06 17:01:56,101 [lib.cuckoo.core.scheduler] INFO: Starting analysis of FILE "/home/ubuntu/Desktop/malware/Phase1/dboardman3_malware4.exe" (task=4)
+2018-02-06 17:01:56,143 [lib.cuckoo.core.scheduler] INFO: Task #4: acquired machine WindowsXPSP3 (label=WindowsXPSP3)
+2018-02-06 17:01:56,163 [modules.auxiliary.sniffer] INFO: Started sniffer with PID 6984 (interface=vboxnet0, host=192.168.56.101, dump path=/home/ubuntu/Desktop/cuckoo/storage/analyses/4/dump.pcap)
+2018-02-06 17:01:57,403 [lib.cuckoo.core.guest] INFO: Starting analysis on guest (id=WindowsXPSP3, ip=192.168.56.101)
+2018-02-06 17:01:59,935 [lib.cuckoo.core.scheduler] INFO: Task #3: reports generation completed (path=/home/ubuntu/Desktop/cuckoo/storage/analyses/3)
+2018-02-06 17:01:59,946 [lib.cuckoo.core.scheduler] INFO: Task #3: analysis procedure completed
+2018-02-06 17:12:11,665 [lib.cuckoo.core.guest] INFO: WindowsXPSP3: analysis completed successfully
+2018-02-06 17:12:17,544 [lib.cuckoo.core.scheduler] INFO: Task #4: reports generation completed (path=/home/ubuntu/Desktop/cuckoo/storage/analyses/4)
+2018-02-06 17:12:17,585 [lib.cuckoo.core.scheduler] INFO: Task #4: analysis procedure completed
